@@ -4,7 +4,7 @@
 The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using National Census data from 2010 through 2019. 
 
 ## Data 
-The data file is available in CSV format and as a [Google Sheet](https://docs.google.com/spreadsheets/d/1-B2HYafrtAJITeBxsv_ZHACH79edyw3IstdczCyhemU/edit?usp=sharing). Each row corresponds to a city and provides links to data specifically made available by that city's police department. Some city police departments share a jurisdiction with other law enforcement agencies—such as sheriff’s departments and university police departments—which are not accounted for in this resource. Therefore, policing data provided by the police department of a particular city may not capture the operations of all policing organizations in that locality. 
+The data file is available in [CSV format](PD_Data_Directory.csv) and as a [Google Sheet](https://docs.google.com/spreadsheets/d/1-B2HYafrtAJITeBxsv_ZHACH79edyw3IstdczCyhemU/edit?usp=sharing). Each row corresponds to a city and provides links to data specifically made available by that city's police department. Some city police departments share a jurisdiction with other law enforcement agencies—such as sheriff’s departments and university police departments—which are not accounted for in this resource. Therefore, policing data provided by the police department of a particular city may not capture the operations of all policing organizations in that locality. 
 
 Links to four different types of data sources are provided (where found). Those four types of data and the variables pertaining to each are as follows: 
 
@@ -56,7 +56,7 @@ The variables related to Calls for Service are
 
 Vera welcomes help filling gaps in the spreadsheet. To search for missing data, use a search engine or visit your local open-data portal or police department website to review available data. Use search terms such as “arrest data,” “911 calls for service data,” “crime incident data,” and “use of force data.” If you find official datasets to add to Vera’s spreadsheet, please email their locations to ArrestTrends@vera.org. 
 
-Vera recognizes that national policing data provided by other online sources may provide meaningful context to the exploration of the city policing data provided in this spreadsheet. Therefore, Vera has assembled a small list of national policing data sources - find those links [here](LINK). Vera welcomes additions to this list. If you find another public data source to add to this list, please email ArrestTrends@vera.org.  
+Vera recognizes that national policing data provided by other online sources may provide meaningful context to the exploration of the city policing data provided in this spreadsheet. Therefore, Vera has assembled a small list of national policing data sources - find those links [here](Contextual_Datasources.csv). Vera welcomes additions to this list. If you find another public data source to add to this list, please email ArrestTrends@vera.org.  
 
 These resources will be updated regularly to reflect the most recent contributions. 
 
