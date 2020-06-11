@@ -10,47 +10,47 @@ Links to four different types of data sources are provided (where found). Those 
 
 ### Use of Force 
 
-The variables related to Use of Force are 
-*`uof_url`: link to report or raw data reporting instances in which force is used by police officers 
-*`shootings`: indicates those datasets which only report officer-involved shootings  
-*`uof_coverage`: span of time covered by dataset 
-*`foia_requested` indicates whether a FOIA request was made for the data on behalf of the [Use of Force Project](http://useofforceproject.org/). 
-*`uof_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
+The variables related to Use of Force are:
+* `uof_url`: link to report or raw data reporting instances in which force is used by police officers 
+* `shootings`: indicates those datasets which only report officer-involved shootings  
+* `uof_coverage`: span of time covered by dataset 
+* `foia_requested` indicates whether a FOIA request was made for the data on behalf of the [Use of Force Project](http://useofforceproject.org/). 
+* `uof_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
 
 ### Arrests 
 
-The variables related to Arrests are 
-*`arr_url`: link to reports or raw data reporting arrests made by city police officers 
-*`arr_coverage`: span of time covered by dataset 
-*`arr_demographic`: indicates whether the dataset includes demographic data for each arrest 
-*`arr_download`: indicates whether the data itself is able to be exported from the online interface 
-*`arr_notes`: other relevant information about the dataset or availability of information through the police department 
+The variables related to Arrests are: 
+* `arr_url`: link to reports or raw data reporting arrests made by city police officers 
+* `arr_coverage`: span of time covered by dataset 
+* `arr_demographic`: indicates whether the dataset includes demographic data for each arrest 
+* `arr_download`: indicates whether the data itself is able to be exported from the online interface 
+* `arr_notes`: other relevant information about the dataset or availability of information through the police department 
 
 ### Crime 
 
-The variables related to Crime are 
-*`crime_url`: link to reports or raw data reporting crime incidents 
-*`crime_coverage`: span of time covered by dataset 
-*`crime_download`: indicates whether the data itself is able to be exported from the online interface 
-*`crime_notes`: other relevant information about the dataset or availability of information through the police department 
-*`map_url`: link to geographic visualization reporting crime incidents 
-*`map_coverage`: span of time covered by dataset 
-*`map_download`: indicates whether the data itself is able to be exported from the online interface 
-*`map_notes`: other relevant information about the dataset or availability of information through the police department 
+The variables related to Crime are: 
+* `crime_url`: link to reports or raw data reporting crime incidents 
+* `crime_coverage`: span of time covered by dataset 
+* `crime_download`: indicates whether the data itself is able to be exported from the online interface 
+* `crime_notes`: other relevant information about the dataset or availability of information through the police department 
+* `map_url`: link to geographic visualization reporting crime incidents 
+* `map_coverage`: span of time covered by dataset 
+* `map_download`: indicates whether the data itself is able to be exported from the online interface 
+* `map_notes`: other relevant information about the dataset or availability of information through the police department 
 
 ### Calls for Service 
 
 Note: Since not all calls for service are indicative of crime and not all crimes are reported via 911, these data sources are distinct from crime (incident) data sources. 
 
-The variables related to Calls for Service are 
-*`cfs_url`: link to reports or raw data reporting calls for service 
-*`cfs_coverage`: span of time covered by dataset 
-*`cfs_download`: indicates whether the data itself is able to be exported from the online interface 
-*`officer_initiated`: indicates whether the dataset captures interactions initiated by officers (such as traffic stops, street investigations, observing crimes in progress, etc)
-*`dispatched`: indicates whether the dataset includes only cases in which an officer was dispatched 
-*`cfs_outcome`: indicates whether the dataset includes the outcome of each call for service 
-*`cfs_location`: indicates whether the dataset includes location data for each call for service 
-*`cfs_notes`: other relevant information about the dataset or availability of information through the police department 
+The variables related to Calls for Service are: 
+* `cfs_url`: link to reports or raw data reporting calls for service 
+* `cfs_coverage`: span of time covered by dataset 
+* `cfs_download`: indicates whether the data itself is able to be exported from the online interface 
+* `officer_initiated`: indicates whether the dataset captures interactions initiated by officers (such as traffic stops, street investigations, observing crimes in progress, etc)
+* `dispatched`: indicates whether the dataset includes only cases in which an officer was dispatched 
+* `cfs_outcome`: indicates whether the dataset includes the outcome of each call for service 
+* `cfs_location`: indicates whether the dataset includes location data for each call for service 
+* `cfs_notes`: other relevant information about the dataset or availability of information through the police department 
 
 ## A Collaborative Resource 
 
