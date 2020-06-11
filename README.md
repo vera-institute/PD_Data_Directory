@@ -1,12 +1,3 @@
----
-title: "README"
-author: "Mary Fleck"
-date: "6/9/2020"
-output: 
-  md_document:
-    variant: gfm
----
-
 ![Vera Institute of Justice Logo](vera-logo.png)
 
 # City Police Department Data Directory 
