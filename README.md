@@ -7,7 +7,7 @@ output:
     variant: gfm
 ---
 
-![Vera Institute of Justice Logo](https://github.com/vera-institute/jail-population-data/blob/master/vera-logo.png?raw=true)
+![Vera Institute of Justice Logo](vera-logo.png)
 
 # City Police Department Data Directory 
 The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using National Census data from 2010 through 2019. 
