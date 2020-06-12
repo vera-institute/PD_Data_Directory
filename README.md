@@ -1,7 +1,7 @@
 ![Vera Institute of Justice Logo](vera-logo.png)
 
 # City Police Department Data Directory 
-The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using National Census data from 2010 through 2019. 
+The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using National Census data from 2010 through 2019. The directory aims to create a single, easily accessible platform to find information on how departments are operating, and give an overview of how readily policing data is available for departments across the country.
 
 ## Data 
 The data file is available in [CSV format](PD_Data_Directory.csv) and as a [Google Sheet](https://docs.google.com/spreadsheets/d/1-B2HYafrtAJITeBxsv_ZHACH79edyw3IstdczCyhemU/edit?usp=sharing). Each row corresponds to a city and provides links to data specifically made available by that city's police department. Some city police departments share a jurisdiction with other law enforcement agencies—such as sheriff’s departments and university police departments—which are not accounted for in this resource. Therefore, policing data provided by the police department of a particular city may not capture the operations of all policing organizations in that locality. 
@@ -58,7 +58,7 @@ Vera welcomes help filling gaps in the spreadsheet. To search for missing data, 
 
 Vera recognizes that national policing data provided by other online sources may provide meaningful context to the exploration of the city policing data provided in this spreadsheet. Therefore, Vera has assembled a small list of national policing data sources - find those links [here](Contextual_Datasources.csv). Vera welcomes additions to this list. If you find another public data source to add to this list, please email ArrestTrends@vera.org.  
 
-These resources will be updated regularly to reflect the most recent contributions. 
+These resources will be updated regularly to reflect the most recent contributions, and may include the introduction of new variables and data source types. 
 
 ## Acknowledgement 
 
