@@ -1,1 +1,40 @@
-﻿
+﻿variable,description
+city,name of city
+uof_url,URL of official use of force reporting
+uof_shootings_only,marker of whether the city use of force data includes only shootings
+uof_coverage,the time span covered by use of force reports
+uof_foia_requested,whether the use of force policy is available via http://useofforceproject.org/
+uof_notes,notes regarding the use of force data for the city
+arr_url,URL of official arrest reporting
+arr_coverage,the time span covered by arrest reports
+arr_demographic,whether arrest data includes demographic information about individuals arrested
+arr_download,whether arrest data can be downloaded
+arr_notes,notes regarding the arrest data
+cfs_url,URL of official calls for service dataset
+cfs_coverage,the time span covered by calls for service data
+cfs_download,whether calls for service data can be downloaded
+cfs_officer_initiated,whether calls for service data identifies calls that were initiated by a police officer
+cfs_dispatched,whether the calls for service data indicates dispatching information
+cfs_outcome,"whether the calls for service data notes the outcome of the call (e.g. arrest, no condition found, resolved, report filed, etc.)"
+cfs_location,whether the calls for service data includes location information
+cfs_notes,notes regarding the calls for service data
+crime_url,URL of official crime reports dataset
+crime_coverage,the time span covered by crime report data
+crime_download,whether crime report data can be downloaded
+crime_notes,notes regarding the crime report data
+map_url,URL of official crime mapping portal
+map_coverage,the time span covered by crime mapping data
+map_download,whether crime mapping data can be downloaded
+map_notes,notes regarding the crime mapping data
+cens_pop_2010,"population of city as measured by the US Census Bureau as of April 1, 2010"
+cens_est_base,"population estimate base as of April 1, 2010 used by US Census Bureau for inter-census population estimates"
+cens_est_2010,"official US Census Bureau estimate of city population on July 1, 2010"
+cens_est_2011,"official US Census Bureau estimate of city population on July 1, 2011"
+cens_est_2012,"official US Census Bureau estimate of city population on July 1, 2012"
+cens_est_2013,"official US Census Bureau estimate of city population on July 1, 2013"
+cens_est_2014,"official US Census Bureau estimate of city population on July 1, 2014"
+cens_est_2015,"official US Census Bureau estimate of city population on July 1, 2015"
+cens_est_2016,"official US Census Bureau estimate of city population on July 1, 2016"
+cens_est_2017,"official US Census Bureau estimate of city population on July 1, 2017"
+cens_est_2018,"official US Census Bureau estimate of city population on July 1, 2018"
+cens_est_2019,"official US Census Bureau estimate of city population on July 1, 2019"
