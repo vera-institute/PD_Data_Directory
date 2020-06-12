@@ -14,7 +14,7 @@ The variables related to Use of Force are:
 * `uof_url`: link to report or raw data reporting instances in which force is used by police officers 
 * `uof_shootings_only`: indicates those datasets which only report officer-involved shootings  
 * `uof_coverage`: span of time covered by dataset 
-* `uof_foia_requested` indicates whether the use of force policy is available in the [Use of Force Project] (http://useofforceproject.org/).”
+* `uof_foia_requested` indicates whether the use of force policy is available in the [Use of Force Project](http://useofforceproject.org/).
 * `uof_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
 
 ### Arrests 
