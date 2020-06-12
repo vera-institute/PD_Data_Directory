@@ -1,12 +1,12 @@
 ![Vera Institute of Justice Logo](vera-logo.png)
 
 # City Police Department Data Directory 
-The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using official US Census population estimates for 2019. The directory aims to create a single, easily accessible platform to find information on how departments are operating, and give an overview of how readily policing data is available for departments across the country.
+The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using official US Census population estimates for 2019. The directory aims to create a single, easily accessible platform to find information on how departments are operating, and give an overview of how readily policing data is available, for departments across the country.
 
 ## Data 
-The data file is available in [CSV format](PD_Data_Directory.csv) and as a [Google Sheet](https://docs.google.com/spreadsheets/d/1WWTQFipfynx9H30XTNtYlRspC21n1e7SjgXOkzXCLv4/edit?usp=sharing). Each row corresponds to a city and provides links to data officially made available by that city's police department. Some city police departments share a jurisdiction with other law enforcement agencies (such as sheriff’s departments or university police departments) which are not accounted for in this resource. Therefore, policing data provided by the police department of a particular city may not capture the operations of all policing organizations in that locality. 
+The data file is available in [CSV format](PD_Data_Directory.csv) and as a [Google Sheet](https://docs.google.com/spreadsheets/d/1oKnKVzF56zZqQxnHHnzs0FOuqBluj11N20V3IkwtmFc/edit?usp=sharing). Each row corresponds to a city and provides links to data officially made available by that city's police department. Some city police departments share a jurisdiction with other law enforcement agencies (such as sheriff’s departments or university police departments) which are not accounted for in this resource. Therefore, policing data provided by the police department of a particular city may not capture the operations of all policing organizations in that locality. 
 
-Links to four different types of data sources are provided (where found). Those four types of data and the variables pertaining to each are as follows: 
+Links to four different types of data sources are provided (where found). Those four types of data and the [variables](Codebook.csv) pertaining to each are as follows: 
 
 ### Use of Force 
 
@@ -14,7 +14,7 @@ The variables related to Use of Force are:
 * `uof_url`: link to report or raw data reporting instances in which force is used by police officers 
 * `uof_shootings_only`: indicates those datasets which only report officer-involved shootings  
 * `uof_coverage`: span of time covered by dataset 
-* `uof_foia_requested` indicates whether a FOIA request was made for the data on behalf of the [Use of Force Project](http://useofforceproject.org/). 
+* `uof_foia_requested` indicates whether the use of force policy is available in the [Use of Force Project](http://useofforceproject.org/).
 * `uof_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
 
 ### Arrests 
