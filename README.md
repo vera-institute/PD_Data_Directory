@@ -1,7 +1,7 @@
 ![Vera Institute of Justice Logo](vera-logo.png)
 
 # City Police Department Data Directory 
-The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using official US Census population estimates for 2019. The directory aims to create a single, easily accessible platform to find information on how departments are operating, and give an overview of how readily policing data is available for departments across the country.
+The Vera Institute of Justice has compiled a spreadsheet containing links to official police datasets for 72 cities - the 50 largest cities in the country and the largest city in each state. City size was determined using official US Census population estimates for 2019. The directory aims to create a single, easily accessible platform to find information on how departments are operating, and give an overview of how readily policing data is available, for departments across the country.
 
 ## Data 
 The data file is available in [CSV format](PD_Data_Directory.csv) and as a [Google Sheet](https://docs.google.com/spreadsheets/d/1oKnKVzF56zZqQxnHHnzs0FOuqBluj11N20V3IkwtmFc/edit?usp=sharing). Each row corresponds to a city and provides links to data officially made available by that city's police department. Some city police departments share a jurisdiction with other law enforcement agencies (such as sheriff’s departments or university police departments) which are not accounted for in this resource. Therefore, policing data provided by the police department of a particular city may not capture the operations of all policing organizations in that locality. 
