@@ -1,4 +1,4 @@
-﻿variable,description
+﻿Variable,Description
 city,name of city
 uof_url,URL of official use of force reporting
 uof_shootings_only,marker of whether the city use of force data includes only shootings
