@@ -6,21 +6,49 @@ The Vera Institute of Justice has compiled a spreadsheet containing links to off
 ## Data 
 The data file is available in [CSV format](PD_Data_Directory.csv) and as a [Google Sheet](https://docs.google.com/spreadsheets/d/1oKnKVzF56zZqQxnHHnzs0FOuqBluj11N20V3IkwtmFc/edit?usp=sharing). Each row corresponds to a city and provides links to data officially made available by that city's police department. Some city police departments share a jurisdiction with other law enforcement agencies (such as sheriff’s departments or university police departments) which are not accounted for in this resource. Therefore, policing data provided by the police department of a particular city may not capture the operations of all policing organizations in that locality. 
 
-Links to four different types of data sources are provided (where found). Those four types of data and the [variables](Codebook.csv) pertaining to each are as follows: 
+Links to twelve different types of data sources are provided (where found). Those twelve types of data and the [variables](Codebook.csv) pertaining to each are as follows: 
 
 ### Use of Force 
 
 The variables related to Use of Force are:
 * `uof_url`: link to report or raw data reporting instances in which force is used by police officers 
+* `uof_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `uof_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `uof_codebook`: indicates if a codebook is present for the data
+* `uof_off_dem`: indicates if the dataset contains demographic information on the officer involved
+* `uof_vic_dem`: indicates if the dataset contains demographic information on the victim involved
+* `uof_location`: indicates what location information is contained in the dataset
+* `uof_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
 * `uof_shootings_only`: indicates those datasets which only report officer-involved shootings  
 * `uof_coverage`: span of time covered by dataset 
 * `uof_foia_requested` indicates whether the use of force policy is available in the [Use of Force Project](http://useofforceproject.org/).
 * `uof_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
 
+### Police Involved Shootings
+
+The variables related to Police Involved Shootings are:
+* `uof_shooting_url`: link to report or raw data reporting instances in which police shot an individual 
+* `uof_shooting_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `uof_shooting_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `uof_shooting_codebook`: indicates if a codebook is present for the data
+* `uof_shooting_off_dem`: indicates if the dataset contains demographic information on the officer involved
+* `uof_shooting_vic_dem`: indicates if the dataset contains demographic information on the victim involved
+* `uof_shooting_location`: indicates what location information is contained in the dataset
+* `uof_shooting_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
+* `uof_shooting_coverage`: span of time covered by dataset 
+* `uof_shooting_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
+
 ### Arrests 
 
 The variables related to Arrests are: 
 * `arr_url`: link to reports or raw data reporting arrests made by city police officers 
+* `arr_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `arr_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `arr_codebook`: indicates if a codebook is present for the data
+* `arr_off_dem`: indicates if the dataset contains demographic information on the officer involved
+* `arr_arr_dem`: indicates if the dataset contains demographic information on the victim involved
+* `arr_location`: indicates what location information is contained in the dataset
+* `arr_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
 * `arr_coverage`: span of time covered by dataset 
 * `arr_demographic`: indicates whether the dataset includes demographic data for each arrest 
 * `arr_download`: indicates whether the data itself is able to be exported from the online interface 
@@ -31,12 +59,29 @@ The variables related to Arrests are:
 The variables related to Crime are: 
 * `crime_url`: link to reports or raw data reporting crime incidents 
 * `crime_coverage`: span of time covered by dataset 
+* `crime_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `crime_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `crime_codebook`: indicates if a codebook is present for the data
+* `crime_off_dem`: indicates if the dataset contains demographic information on the officer involved
+* `crime_arr_dem`: indicates if the dataset contains demographic information on the victim involved
+* `crime_location`: indicates what location information is contained in the dataset
+* `crime_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
 * `crime_download`: indicates whether the data itself is able to be exported from the online interface 
 * `crime_notes`: other relevant information about the dataset or availability of information through the police department 
-* `map_url`: link to geographic visualization reporting crime incidents 
+ 
+
+### Crime Mapping
+
+The variables related to Crime are: 
+* `map_url`: link to reports or raw data reporting crime incidents 
 * `map_coverage`: span of time covered by dataset 
+* `map_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `map_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `map_location`: indicates what location information is contained in the dataset
+* `map_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
 * `map_download`: indicates whether the data itself is able to be exported from the online interface 
 * `map_notes`: other relevant information about the dataset or availability of information through the police department 
+
 
 ### Calls for Service 
 
@@ -45,12 +90,66 @@ Note: Since not all calls for service are indicative of crime and not all crimes
 The variables related to Calls for Service are: 
 * `cfs_url`: link to reports or raw data reporting calls for service 
 * `cfs_coverage`: span of time covered by dataset 
+* `cfs_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `cfs_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `cfs_timestamp`: indicates which timestamps exist
 * `cfs_download`: indicates whether the data itself is able to be exported from the online interface 
 * `cfs_officer_initiated`: indicates whether the dataset captures interactions initiated by officers (such as traffic stops, street investigations, observing crimes in progress, etc)
 * `cfs_dispatched`: indicates whether the dataset includes only cases in which an officer was dispatched 
 * `cfs_outcome`: indicates whether the dataset includes the outcome of each call for service 
 * `cfs_location`: indicates whether the dataset includes location data for each call for service 
 * `cfs_notes`: other relevant information about the dataset or availability of information through the police department 
+
+### Traffic and Pedestrian Stops
+
+The variables related to Traffic and Pedestrian Stops are: 
+* `stops_url`: link to reports or raw data reporting arrests made by city police officers 
+* `stops_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `stops_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `stops_codebook`: indicates if a codebook is present for the data
+* `stops_off_dem`: indicates if the dataset contains demographic information on the officer involved
+* `stops_arr_dem`: indicates if the dataset contains demographic information on the victim involved
+* `stops_location`: indicates what location information is contained in the dataset
+* `stops_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
+* `stops_coverage`: span of time covered by dataset 
+* `stops_demographic`: indicates whether the dataset includes demographic data for each arrest 
+* `stops_download`: indicates whether the data itself is able to be exported from the online interface 
+* `stops_notes`: other relevant information about the dataset or availability of information through the police department 
+
+### Complaints and Police Misconduct
+
+The variables related to Civilian Complaints and Officer Misconduct are: 
+* `complaint_url`: link to reports or raw data reporting arrests made by city police officers 
+* `complaint_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `complaint_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `complaint_codebook`: indicates if a codebook is present for the data
+* `complaint_off_dem`: indicates if the dataset contains demographic information on the officer involved
+* `complaint_arr_dem`: indicates if the dataset contains demographic information on the victim involved
+* `complaint_location`: indicates what location information is contained in the dataset
+* `complaint_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
+* `complaint_coverage`: span of time covered by dataset 
+* `complaint_demographic`: indicates whether the dataset includes demographic data for each arrest 
+* `complaint_download`: indicates whether the data itself is able to be exported from the online interface 
+* `complaint_notes`: other relevant information about the dataset or availability of information through the police department 
+
+#### The  Following sets are generally non-numeric data
+
+### Police Contact Information
+* `police_contact_url`: link to pd contact information
+* `police_contact_type`: indicated level of contact type (i.e. Main Office, Field Supervisor)
+* `police_contact_notes`: other relevant information about the dataset or availability of information through the police department 
+
+### Operations Manuals
+* `ops_manual_url`: link to pd operations manual(s)
+* `ops_manual_notes`: other relevant information about the dataset or availability of information through the police department 
+
+### Training Materials
+* `training_url`: link to pd training materials or guides
+* `training_notes`: other relevant information about the dataset or availability of information through the police department 
+
+### Use of Force Police
+* `uof_policy_url`: link to internal pd use of force policy
+* `uof_policy_notes`: other relevant information about the dataset or availability of information through the police department 
 
 ### Population 
 
