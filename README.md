@@ -37,16 +37,21 @@ The variables related to Use of Force are:
 ### Police Involved Shootings
 
 The variables related to Police Involved Shootings are:
-* `uof_shooting_url`: link to report or raw data reporting instances in which police shot an individual 
-* `uof_shooting_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
-* `uof_shooting_agg_type`: indicates if the data is captured at an incident level or an aggregate
-* `uof_shooting_codebook`: indicates if a codebook is present for the data
-* `uof_shooting_off_dem`: indicates if the dataset contains demographic information on the officer involved
-* `uof_shooting_vic_dem`: indicates if the dataset contains demographic information on the victim involved
-* `uof_shooting_location`: indicates what location information is contained in the dataset
-* `uof_shooting_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
-* `uof_shooting_coverage`: span of time covered by dataset 
-* `uof_shooting_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
+* `shooting_url`: link to report or raw data reporting instances in which police shot an individual 
+* `shooting_download`: indicates if the information contained in the URL link is downloadable
+* `shooting_nonfatal_only`: indicates if the dataset only contains non-fatal shooting incidents
+* `shooting_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `shooting_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `shooting_codebook`: indicates if a codebook is present for the data
+* `shooting_off_dem`: indicates if the dataset contains demographic information on the officer involved
+* `shooting_civ_dem`: indicates if the dataset contains demographic information on the civilian involved
+* `shooting_location`: indicates what location information is contained in the dataset (i.e. address, cross streets, longitude/latitude)
+* `shooting_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
+* `shooting_coverage`: span of time covered by dataset 
+* `shooting_acc_discharge`: indicates if the dataset includes accidental firearm discharges
+* `shooting_justification`: indicates if the dataset contains justification information
+* `shooting_bodycam`: indicates if the dataset contains bodycam footage or information
+* `shooting_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
 
 ### Arrests 
 
