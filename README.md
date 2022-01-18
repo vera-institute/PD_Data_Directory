@@ -132,13 +132,29 @@ The variables related to Traffic and Pedestrian Stops are:
 * `stops_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `stops_codebook`: indicates if a codebook is present for the data
 * `stops_off_dem`: indicates if the dataset contains demographic information on the officer involved
-* `stops_arr_dem`: indicates if the dataset contains demographic information on the victim involved
+* `stops_civ_dem`: indicates if the dataset contains demographic information on the civilian involved
+* 
 * `stops_location`: indicates what location information is contained in the dataset
 * `stops_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
 * `stops_coverage`: span of time covered by dataset 
-* `stops_demographic`: indicates whether the dataset includes demographic data for each arrest 
-* `stops_download`: indicates whether the data itself is able to be exported from the online interface 
+* `stops_demographic`: indicates if the dataset includes demographic data for each arrest 
+* `stops_download`: indicates if the data itself is able to be exported from the online interface 
 * `stops_notes`: other relevant information about the dataset or availability of information through the police department 
+
+
+####Incoming Variables#####
+
+* `stops_crime`
+* `stops_source`:
+* `stops_frisk`:
+* `stops_person_search`:
+* `stops_vehicle_search`:
+* `stops_reason`:
+* `stops_search_result`:
+* `stops_uof`:
+* `stops_uof_reason`:
+* `stops_removed`:
+* `stops_outcome`:   
 
 ### Complaints and Police Misconduct
 
@@ -155,6 +171,20 @@ The variables related to Civilian Complaints and Officer Misconduct are:
 * `complaint_demographic`: indicates whether the dataset includes demographic data for each arrest 
 * `complaint_download`: indicates whether the data itself is able to be exported from the online interface 
 * `complaint_notes`: other relevant information about the dataset or availability of information through the police department 
+
+####Incoming Variables#####
+
+* `complaints_int_ext`:
+* `complaints_all_cat`:
+* `complaints_allegation`:
+* `complaints_timestamp`:
+* `complaints_findings`:
+* `complaints_disc`:
+* `complaints_disposition`:
+* `complaints_penalty`:
+* `complaints_appeal`:
+* `complaints_appeal_result`:
+
 
 #### The  Following sets are generally non-numeric data
 
