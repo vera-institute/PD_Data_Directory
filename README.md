@@ -12,14 +12,24 @@ Links to twelve different types of data sources are provided (where found). Thos
 
 The variables related to Use of Force are:
 * `uof_url`: link to report or raw data reporting instances in which force is used by police officers 
+* `uof_download`: indicates if the information contained in the URL link is downloadable
 * `uof_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
 * `uof_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `uof_codebook`: indicates if a codebook is present for the data
 * `uof_off_dem`: indicates if the dataset contains demographic information on the officer involved
-* `uof_vic_dem`: indicates if the dataset contains demographic information on the victim involved
-* `uof_location`: indicates what location information is contained in the dataset
+* `uof_civ_dem`: indicates if the dataset contains demographic information on the civilian involved
+* `uof_location`: indicates what location information is contained in the dataset (i.e. Address, Cross Streets, Latitude/Longitude) 
 * `uof_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
-* `uof_shootings_only`: indicates those datasets which only report officer-involved shootings  
+* `uof_shootings_only`: indicates those datasets which only report officer-involved shootings 
+* `uof_force_type`: indicates if the dataset contains use of force type
+* `uof_justification`: indicates if the dataset contains use of force type   
+* `uof_off_injury`: indicates if the dataset contains officer injury information
+* `uof_civ_injury`: indicates if the dataset contains civilian injury information
+* `uof_civ_weapon`: indicates if the dataset contains civilian weapon used information
+* `uof_off_weapon`: indicates if the dataset contains officer weapon used information
+* `uof_arrest_made`: indicates if the dataset contains if an arrest was made during the incident
+* `uof_bodycam`: indicates if the dataset contains bodycam footage or data
+* `uof_justification`: indicates if the dataset contains use of force type   
 * `uof_coverage`: span of time covered by dataset 
 * `uof_foia_requested` indicates whether the use of force policy is available in the [Use of Force Project](http://useofforceproject.org/).
 * `uof_notes`: other relevant information about the dataset or availability of information through the police department. For example, other distinctions in qualifications for inclusion in the dataset. 
