@@ -61,13 +61,36 @@ The variables related to Arrests are:
 * `arr_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `arr_codebook`: indicates if a codebook is present for the data
 * `arr_off_dem`: indicates if the dataset contains demographic information on the officer involved
-* `arr_arr_dem`: indicates if the dataset contains demographic information on the victim involved
+* `arr_arr_dem`: indicates if the dataset contains demographic information on the arrestee involved
 * `arr_location`: indicates what location information is contained in the dataset
 * `arr_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
 * `arr_coverage`: span of time covered by dataset 
 * `arr_demographic`: indicates whether the dataset includes demographic data for each arrest 
-* `arr_download`: indicates whether the data itself is able to be exported from the online interface 
+* `arr_download`: indicates if the data itself is able to be exported from the online interface
+* `arr_charge`: indicates if the charge associated with the arrest was included
+* `arr_uof`: indicates if force was used during the arrest event
 * `arr_notes`: other relevant information about the dataset or availability of information through the police department 
+
+### Calls for Service 
+
+Note: Since not all calls for service are indicative of crime and not all crimes are reported via 911, these data sources are distinct from crime (incident) data sources. 
+
+The variables related to Calls for Service are: 
+* `cfs_url`: link to reports or raw data reporting calls for service 
+* `cfs_coverage`: span of time covered by dataset 
+* `cfs_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `cfs_agg_type`: indicates if the data is captured at an incident level or an aggregate
+* `cfs_timestamp`: indicates which timestamps exist
+* `cfs_download`: indicates if the data itself is able to be exported from the online interface 
+* `cfs_officer_initiated`: indicates if the dataset captures interactions initiated by officers (such as traffic stops, street investigations, observing crimes in progress, etc)
+* `cfs_timstamps`: indicates if the dataset includes timstamps associated with the call (i.e. time created, time dispatched
+* `cfs_dispatchedFlag`: indicates whether the dataset includes only cases in which an officer was dispatched 
+* `cfs_calltype`: indicates if the dataset includes the call type (i.e. intial, final or general)
+* `cfs_priority`: indicates if the dataset includes the call priority level
+* `cfs_outcome`: indicates if the dataset includes the outcome of each call for service 
+* `cfs_location`: indicates if the dataset includes location data for each call for service 
+* `cfs_notes`: other relevant information about the dataset or availability of information through the police department 
+
 
 ### Crime 
 
@@ -78,9 +101,12 @@ The variables related to Crime are:
 * `crime_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `crime_codebook`: indicates if a codebook is present for the data
 * `crime_off_dem`: indicates if the dataset contains demographic information on the officer involved
-* `crime_arr_dem`: indicates if the dataset contains demographic information on the victim involved
+* `crime_vic_dem`: indicates if the dataset contains demographic information on the victim involved
+* `crime_acc_dem`: indicates if the dataset contains demographic information on the accused involved
 * `crime_location`: indicates what location information is contained in the dataset
 * `crime_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
+* `crime_charge`: indicates if the dataset contains crime charge
+* `crime_cleared`: indicates if the dataset contains if the crime was cleared 
 * `crime_download`: indicates whether the data itself is able to be exported from the online interface 
 * `crime_notes`: other relevant information about the dataset or availability of information through the police department 
  
@@ -97,23 +123,6 @@ The variables related to Crime are:
 * `map_download`: indicates whether the data itself is able to be exported from the online interface 
 * `map_notes`: other relevant information about the dataset or availability of information through the police department 
 
-
-### Calls for Service 
-
-Note: Since not all calls for service are indicative of crime and not all crimes are reported via 911, these data sources are distinct from crime (incident) data sources. 
-
-The variables related to Calls for Service are: 
-* `cfs_url`: link to reports or raw data reporting calls for service 
-* `cfs_coverage`: span of time covered by dataset 
-* `cfs_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
-* `cfs_agg_type`: indicates if the data is captured at an incident level or an aggregate
-* `cfs_timestamp`: indicates which timestamps exist
-* `cfs_download`: indicates whether the data itself is able to be exported from the online interface 
-* `cfs_officer_initiated`: indicates whether the dataset captures interactions initiated by officers (such as traffic stops, street investigations, observing crimes in progress, etc)
-* `cfs_dispatched`: indicates whether the dataset includes only cases in which an officer was dispatched 
-* `cfs_outcome`: indicates whether the dataset includes the outcome of each call for service 
-* `cfs_location`: indicates whether the dataset includes location data for each call for service 
-* `cfs_notes`: other relevant information about the dataset or availability of information through the police department 
 
 ### Traffic and Pedestrian Stops
 
