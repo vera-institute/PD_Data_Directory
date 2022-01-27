@@ -13,6 +13,7 @@ Links to twelve different types of data sources are provided (where found). Thos
 The variables related to Use of Force are:
 * `uof_url`: link to report or raw data reporting instances in which force is used by police officers 
 * `uof_download`: indicates if the information contained in the URL link is downloadable
+* `uof_freq`: indicates how frequently the data is updated
 * `uof_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
 * `uof_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `uof_codebook`: indicates if a codebook is present for the data
@@ -37,7 +38,8 @@ The variables related to Use of Force are:
 ### Police Involved Shootings
 
 The variables related to Police Involved Shootings are:
-* `shooting_url`: link to report or raw data reporting instances in which police shot an individual 
+* `shooting_url`: link to report or raw data reporting instances in which police shot an individual
+* `shooting_freq`: indicates how frequently the data is updated 
 * `shooting_download`: indicates if the information contained in the URL link is downloadable
 * `shooting_nonfatal_only`: indicates if the dataset only contains non-fatal shooting incidents
 * `shooting_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
@@ -58,6 +60,7 @@ The variables related to Police Involved Shootings are:
 The variables related to Arrests are: 
 * `arr_url`: link to reports or raw data reporting arrests made by city police officers 
 * `arr_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `arr_freq`: indicates how frequently the data is updated
 * `arr_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `arr_codebook`: indicates if a codebook is present for the data
 * `arr_off_dem`: indicates if the dataset contains demographic information on the officer involved
@@ -76,7 +79,8 @@ The variables related to Arrests are:
 Note: Since not all calls for service are indicative of crime and not all crimes are reported via 911, these data sources are distinct from crime (incident) data sources. 
 
 The variables related to Calls for Service are: 
-* `cfs_url`: link to reports or raw data reporting calls for service 
+* `cfs_url`: link to reports or raw data reporting calls for service
+* `cfs_freq`: indicates how frequently the data is updated 
 * `cfs_coverage`: span of time covered by dataset 
 * `cfs_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
 * `cfs_agg_type`: indicates if the data is captured at an incident level or an aggregate
@@ -95,7 +99,8 @@ The variables related to Calls for Service are:
 ### Crime 
 
 The variables related to Crime are: 
-* `crime_url`: link to reports or raw data reporting crime incidents 
+* `crime_url`: link to reports or raw data reporting crime incidents
+* `crime_freq`: indicates how frequently the data is updated 
 * `crime_coverage`: span of time covered by dataset 
 * `crime_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
 * `crime_agg_type`: indicates if the data is captured at an incident level or an aggregate
@@ -114,7 +119,8 @@ The variables related to Crime are:
 ### Crime Mapping
 
 The variables related to Crime are: 
-* `map_url`: link to reports or raw data reporting crime incidents 
+* `map_url`: link to reports or raw data reporting crime incidents
+* `map_freq`: indicates how frequently the data is updated 
 * `map_coverage`: span of time covered by dataset 
 * `map_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
 * `map_agg_type`: indicates if the data is captured at an incident level or an aggregate
@@ -129,11 +135,11 @@ The variables related to Crime are:
 The variables related to Traffic and Pedestrian Stops are: 
 * `stops_url`: link to reports or raw data reporting arrests made by city police officers 
 * `stops_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `stops_freq`: indicates how frequently the data is updated
 * `stops_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `stops_codebook`: indicates if a codebook is present for the data
 * `stops_off_dem`: indicates if the dataset contains demographic information on the officer involved
 * `stops_civ_dem`: indicates if the dataset contains demographic information on the civilian involved
-* 
 * `stops_location`: indicates what location information is contained in the dataset
 * `stops_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
 * `stops_coverage`: span of time covered by dataset 
@@ -144,7 +150,7 @@ The variables related to Traffic and Pedestrian Stops are:
 
 ####Incoming Variables#####
 
-* `stops_crime`
+* `stops_crime`:
 * `stops_source`:
 * `stops_frisk`:
 * `stops_person_search`:
@@ -161,6 +167,7 @@ The variables related to Traffic and Pedestrian Stops are:
 The variables related to Civilian Complaints and Officer Misconduct are: 
 * `complaint_url`: link to reports or raw data reporting arrests made by city police officers 
 * `complaint_data_type`: indicates how the data is structured (i.e. .csv, .pdf, report style)
+* `complaint_freq`: indicates how frequently the data is updated
 * `complaint_agg_type`: indicates if the data is captured at an incident level or an aggregate
 * `complaint_codebook`: indicates if a codebook is present for the data
 * `complaint_off_dem`: indicates if the dataset contains demographic information on the officer involved
