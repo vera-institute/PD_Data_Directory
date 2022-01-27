@@ -142,25 +142,20 @@ The variables related to Traffic and Pedestrian Stops are:
 * `stops_civ_dem`: indicates if the dataset contains demographic information on the civilian involved
 * `stops_location`: indicates what location information is contained in the dataset
 * `stops_embed`: indicates if there is internally embedded data analysis tools on the site page (i.e. mapping or charts with variable toggles)
-* `stops_coverage`: span of time covered by dataset 
-* `stops_demographic`: indicates if the dataset includes demographic data for each arrest 
+* `stops_coverage`: span of time covered by dataset  
 * `stops_download`: indicates if the data itself is able to be exported from the online interface 
 * `stops_notes`: other relevant information about the dataset or availability of information through the police department 
-
-
-####Incoming Variables#####
-
-* `stops_crime`:
-* `stops_source`:
-* `stops_frisk`:
-* `stops_person_search`:
-* `stops_vehicle_search`:
-* `stops_reason`:
-* `stops_search_result`:
-* `stops_uof`:
-* `stops_uof_reason`:
-* `stops_removed`:
-* `stops_outcome`:   
+* `stops_crime`:indicates if the dataset contains information on suspected crime
+* `stops_source`:indicates if the dataset contains information source for the stop (i.e. traffic, 911, terry etc..)
+* `stops_frisk`: indicates if the dataset contains information on if a frisk occured
+* `stops_person_search`: indicates if the dataset contains information on if a person was searched
+* `stops_vehicle_search`: indicates if the dataset contains information on if a vehicle was searched
+* `stops_reason`: indicates if the dataset contains information on the justification behind the stop
+* `stops_search_result`: indicates if the dataset contains information on the result of the serach (if applicable)
+* `stops_uof`: indicates if the dataset contains information on if force was used
+* `stops_uof_reason`: indicates if the dataset contains information on the justification behind the use of force (if applicable)
+* `stops_removed`: indicates if the dataset contains information on if a an individual was removed from their vehicle
+* `stops_outcome`: indicates if the dataset contains information on the result of the stop (i.e warning, citation, arrest etc..)
 
 ### Complaints and Police Misconduct
 
